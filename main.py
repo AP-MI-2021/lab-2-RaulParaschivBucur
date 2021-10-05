@@ -1,5 +1,5 @@
 # 11)
-def get_leap_years(start, end):
+def get_leap_years(start: int, end: int) -> list[int]:
     """
     Input: Doi ani --> start, end
     Output: Afisarea anilor bisecti dintre cei doi ani inclusiv
@@ -14,7 +14,7 @@ def get_leap_years(start, end):
 
 
 # 12)
-def get_perfect_squares(start, end):
+def get_perfect_squares(start: int, end: int) -> list[int]:
     """
     Input: Doua capete de interval inchis
     Output: Afisarea patratelor perfecte din acel interval inchis
