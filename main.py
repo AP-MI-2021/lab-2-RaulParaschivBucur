@@ -2,7 +2,7 @@
 def get_leap_years(start: int, end: int) -> list[int]:
     """
     Input: Doi ani --> start, end
-    Output: Afisarea anilor bisecti dintre cei doi ani inclusiv
+    Output: O lista cu anii bisecti dintre anii introdusi
     """
     lst = []
     if (start > end) or ((start == 0) and (end == 0)):
@@ -16,8 +16,8 @@ def get_leap_years(start: int, end: int) -> list[int]:
 # 12)
 def get_perfect_squares(start: int, end: int) -> list[int]:
     """
-    Input: Doua capete de interval inchis
-    Output: Afisarea patratelor perfecte din acel interval inchis
+    Input: Doua capete de interval inchis --> start, int
+    Output: O lista cu patratele perfecte din acel interval inchis
     """
     lst = []
     for idx in range(start, end + 1):
